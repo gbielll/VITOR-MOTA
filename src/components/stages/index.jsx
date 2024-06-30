@@ -24,10 +24,10 @@ export function Stages (){
                             if (note.etapa == 1) {
                                 return <p key={note.id}>{note.title}</p>;
                             }
-                            return <p>Sem material</p>;
+                            
                         })
                     ) : (
-                        <p>Sem material</p>
+                       null
                     )}
                 </div>
 
@@ -37,10 +37,10 @@ export function Stages (){
                             if (note.etapa == 2) {
                                 return <p key={note.id}>{note.title}</p>;
                             }
-                            return <p>Sem material</p>;
+                           
                         })
                     ) : (
-                        <p>Sem material</p>
+                        null
                     )}
                 </div>
 
@@ -50,10 +50,10 @@ export function Stages (){
                             if (note.etapa == 3) {
                                 return <p key={note.id}>{note.title}</p>;
                             }
-                            return <p>Sem material</p>;
+                            
                         })
                     ) : (
-                        <p>Sem material</p>
+                        null
                     )}
                 </div>
 
@@ -66,10 +66,10 @@ export function Stages (){
                                     <p key={note.id} style={{ color: 'yellow' }}>{note.title}</p>   
                                )
                             }
-                            return <p>Sem material</p>;
+                            
                         })
                     ) : (
-                        <p>Sem material</p>
+                        null
                     )}
                 </div>
 
