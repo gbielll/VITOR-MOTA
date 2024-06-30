@@ -1,0 +1,24 @@
+:root {
+  --header-background:#2f2f2f;
+  --note-background:#c4c4c4;
+  --dark-gray:#474747;
+}
+
+/*Reset*/
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+  font-family: 'Roboto',sans-serif;
+  text-decoration: none;
+  /*enfeitar mais a fonte*/
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing:grayscale;
+
+}
+
+ul,li{
+  list-style: none;
+}

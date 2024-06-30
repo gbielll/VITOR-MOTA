@@ -1,0 +1,25 @@
+.actions{
+  display: inline-flex; /*inline:somente uma linha e o flex combina com ele*/
+  flex-wrap: wrap;
+  gap:13px;
+}
+
+
+.icon{
+    width: 25px;
+    height: 25px;
+    color: white;
+}
+
+.actions > button{ 
+    cursor: pointer;
+    padding: 2px;
+    background: transparent;
+    border: none;
+}
+
+.actions .disabled{
+    opacity:0.5;
+    cursor: not-allowed;
+}
+

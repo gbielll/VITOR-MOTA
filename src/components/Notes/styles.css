@@ -1,0 +1,8 @@
+
+.notes{
+    margin:  20px 0 0 20px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px; /*entre os elementos (uma margem entre eles e nao para fora)*/
+    align-content: flex-start;
+}

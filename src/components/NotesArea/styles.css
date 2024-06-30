@@ -1,0 +1,31 @@
+
+@media(max-width:720px){ /*enquanto a width max fo de 720*/
+  
+  .notes-area{
+   flex-wrap: wrap-reverse; /*deixa o form em cima das notas*/
+  }
+
+  .notes-area note-menu{
+    flex: 1; /*preenche todos os espaçoes disponível (vai crescer)*/
+    min-height: 340px; /*atura minima q ele vai ter*/
+    width: 100vw;
+  }
+
+  .notes-area .notes{
+    justify-content: center;
+    margin: 0;
+  }
+
+  .notes-area .notes .note{
+    margin: 20px 0 0 20px;
+  }
+}
+
+
+.notes-area{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+

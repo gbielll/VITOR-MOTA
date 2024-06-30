@@ -1,0 +1,39 @@
+.Conatiner{
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+    padding: 30px;
+    width: 80%;
+    height: 50%;
+    border-radius: 20px;
+    background-color: rgb(66, 66, 66)
+}
+
+.stepcategory{
+margin-bottom: 5px;
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+}
+
+.stepnames{
+    margin: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+}
+
+p{
+    color: aliceblue;
+}
+
+h1{
+    color: aliceblue;
+    margin-bottom: 5px;
+}
+
+
+.relatorio{
+    display: flex;
+    flex-direction: row;
+}
